@@ -1,0 +1,7 @@
+Repository,Filter,Count,,
+Significant-Gravitas/AutoGPT,label:bug is:issue,81,,Note: This Table was revised with the data we collected from table 3 of which bugs we are filtering out
+OpenDevin/OpenDevin,label:bug is:issue,232,,
+microsoft/autogen,label:bug is:issue,58,,
+gpt-engineer-org/gpt-engineer,label:bug is:issue,23,,
+langchain-ai/langchain,label:bug is:issue,622,,
+,,1016,,

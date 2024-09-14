@@ -1,0 +1,150 @@
+Analysis for langchain:
+1. Percentage of each bug type (Bug proportion):
+   api compatibility and dependency issue (A3): 13.02%
+   tool integration issue (A1): 57.23%
+   model integration issue (A2): 13.02%
+   data format problem (A5): 8.04%
+   memory management issue (A6): 3.86%
+   context window overflow (A7): 0.80%
+   hallucination (A8): 1.29%
+   framework setup issue (A4): 2.73%
+
+2. Top 5 root causes and their percentages:
+   tool design and behavior mismatch (B1): 28.78%
+   unsupported tool functionality (B2): 24.44%
+   library dependency conflicts (B10): 11.41%
+   model version incompatibility (B4): 9.49%
+   unhandled tool exception (B3): 7.07%
+
+3. Percentage of each symptom type:
+   crash (C1): 40.84%
+   Wrong Output than expected (C3): 52.89%
+   authentication failure (C2): 3.38%
+   performance degradation (C4): 2.89%
+
+4. Top 5 most frequent combinations of bug types and root causes:
+   tool integration issue (A1) + tool design and behavior mismatch (B1): 25.08%
+   tool integration issue (A1) + unsupported tool functionality (B2): 23.63%
+   api compatibility and dependency issue (A3) + library dependency conflicts (B10): 10.77%
+   model integration issue (A2) + model version incompatibility (B4): 9.16%
+   tool integration issue (A1) + unhandled tool exception (B3): 6.59%
+
+
+Analysis for OpenDevin:
+1. Percentage of each bug type (Bug proportion):
+   tool integration issue (A1): 24.57%
+   model integration issue (A2): 26.72%
+   framework setup issue (A4): 21.12%
+   api compatibility and dependency issue (A3): 21.98%
+   other (A9): 3.02%
+   data format problem (A5): 2.16%
+   memory management issue (A6): 0.43%
+
+2. Top 5 root causes and their percentages:
+   dependency installation failure (B11): 16.38%
+   incompatible execution environment (B12): 13.36%
+   network connectivity problems (B14): 12.50%
+   library dependency conflicts (B10): 10.78%
+   tool design and behavior mismatch (B1): 10.34%
+
+3. Percentage of each symptom type:
+   performance degradation (C4): 5.60%
+   crash (C1): 61.64%
+   Wrong Output than expected (C3): 23.71%
+   authentication failure (C2): 9.05%
+
+4. Top 5 most frequent combinations of bug types and root causes:
+   framework setup issue (A4) + dependency installation failure (B11): 16.38%
+   tool integration issue (A1) + network connectivity problems (B14): 9.48%
+   api compatibility and dependency issue (A3) + library dependency conflicts (B10): 9.05%
+   api compatibility and dependency issue (A3) + incompatible execution environment (B12): 8.62%
+   tool integration issue (A1) + tool design and behavior mismatch (B1): 8.19%
+
+
+Analysis for autogen:
+1. Percentage of each bug type (Bug proportion):
+   model integration issue (A2): 29.31%
+   framework setup issue (A4): 12.07%
+   tool integration issue (A1): 22.41%
+   api compatibility and dependency issue (A3): 18.97%
+   data format problem (A5): 13.79%
+   memory management issue (A6): 3.45%
+
+2. Top 5 root causes and their percentages:
+   tool design and behavior mismatch (B1): 15.52%
+   wrong api implementation (B7): 13.79%
+   model version incompatibility (B4): 10.34%
+   library dependency conflicts (B10): 10.34%
+   dependency installation failure (B11): 8.62%
+
+3. Percentage of each symptom type:
+   crash (C1): 55.17%
+   Wrong Output than expected (C3): 41.38%
+   performance degradation (C4): 1.72%
+   authentication failure (C2): 1.72%
+
+4. Top 5 most frequent combinations of bug types and root causes:
+   model integration issue (A2) + wrong api implementation (B7): 13.79%
+   tool integration issue (A1) + tool design and behavior mismatch (B1): 13.79%
+   model integration issue (A2) + model version incompatibility (B4): 10.34%
+   api compatibility and dependency issue (A3) + library dependency conflicts (B10): 10.34%
+   framework setup issue (A4) + dependency installation failure (B11): 8.62%
+
+
+Analysis for AutoGPT:
+1. Percentage of each bug type (Bug proportion):
+   framework setup issue (A4): 13.58%
+   api compatibility and dependency issue (A3): 13.58%
+   tool integration issue (A1): 28.40%
+   data format problem (A5): 17.28%
+   model integration issue (A2): 14.81%
+   context window overflow (A7): 8.64%
+   memory management issue (A6): 3.70%
+
+2. Top 5 root causes and their percentages:
+   incorrect response parsing (B16): 14.81%
+   dependency installation failure (B11): 13.58%
+   library dependency conflicts (B10): 12.35%
+   unsupported tool functionality (B2): 9.88%
+   unhandled tool exception (B3): 9.88%
+
+3. Percentage of each symptom type:
+   crash (C1): 62.96%
+   Wrong Output than expected (C3): 33.33%
+   performance degradation (C4): 3.70%
+
+4. Top 5 most frequent combinations of bug types and root causes:
+   data format problem (A5) + incorrect response parsing (B16): 14.81%
+   framework setup issue (A4) + dependency installation failure (B11): 12.35%
+   api compatibility and dependency issue (A3) + library dependency conflicts (B10): 12.35%
+   tool integration issue (A1) + unhandled tool exception (B3): 8.64%
+   tool integration issue (A1) + unsupported tool functionality (B2): 7.41%
+
+
+Analysis for gpt-engineer:
+1. Percentage of each bug type (Bug proportion):
+   api compatibility and dependency issue (A3): 34.78%
+   tool integration issue (A1): 39.13%
+   model integration issue (A2): 8.70%
+   framework setup issue (A4): 4.35%
+   data format problem (A5): 13.04%
+
+2. Top 5 root causes and their percentages:
+   library dependency conflicts (B10): 21.74%
+   tool design and behavior mismatch (B1): 17.39%
+   incompatible execution environment (B12): 17.39%
+   unhandled tool exception (B3): 13.04%
+   unsupported tool functionality (B2): 13.04%
+
+3. Percentage of each symptom type:
+   crash (C1): 78.26%
+   Wrong Output than expected (C3): 17.39%
+   authentication failure (C2): 4.35%
+
+4. Top 5 most frequent combinations of bug types and root causes:
+   api compatibility and dependency issue (A3) + library dependency conflicts (B10): 21.74%
+   tool integration issue (A1) + tool design and behavior mismatch (B1): 17.39%
+   tool integration issue (A1) + unsupported tool functionality (B2): 13.04%
+   api compatibility and dependency issue (A3) + incompatible execution environment (B12): 13.04%
+   tool integration issue (A1) + unhandled tool exception (B3): 8.70%
+

@@ -1,0 +1,15 @@
+1. Percentage of bugs in each development cycle stage:
+   Unknown (Unknown): 9.55%
+   Preprocessing Stage (D1): 7.28%
+   Agent Development and Integration Stage (D2): 80.22%
+   Postprocessing Stage (D3): 2.95%
+
+2. Top 5 most frequent combinations of bug types and development cycle stages:
+   tool integration issue (A1) + Agent Development and Integration Stage (D2): 40.85%
+   model integration issue (A2) + Agent Development and Integration Stage (D2): 16.83%
+   api compatibility and dependency issue (A3) + Agent Development and Integration Stage (D2): 8.56%
+   data format problem (A5) + Agent Development and Integration Stage (D2): 6.10%
+   api compatibility and dependency issue (A3) + Unknown (Unknown): 5.61%
+
+
+   
